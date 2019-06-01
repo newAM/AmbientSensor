@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\eeale\Dropbox\Projects\Projects_Automation\Automation_AmbientSensor\AmbientSensor_KiCAD\AmbientSensor.sch</source>
+    <date>2019-01-30 19:20:57</date>
+    <tool>Eeschema (5.0.2)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>PoE Ambient Sensor</title>
+        <company>Alex M.</company>
+        <rev>1</rev>
+        <date>2018-11-24</date>
+        <source>AmbientSensor.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PoE PD Interface/" tstamps="/5BF9F5EE/">
+      <title_block>
+        <title>PoE Ambient Sensor</title>
+        <company>Alex M.</company>
+        <rev>1</rev>
+        <date>2018-11-24</date>
+        <source>PoE_PD_Interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/">
+      <title_block>
+        <title>PoE Ambient Sensor</title>
+        <company>Alex M.</company>
+        <rev>1</rev>
+        <date>2018-11-24</date>
+        <source>W5500_Ethernet_Interface.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>STM32F070CBTx</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">497-15099-ND</field>
+      </fields>
+      <libsource lib="MCU_ST_STM32F0" part="STM32F070CBTx" description="ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2.4-3.6V, 37 GPIO, LQFP-48"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBC1494</tstamp>
+    </comp>
+    <comp ref="X3">
+      <value>0813-1X1T-57-F</value>
+      <footprint>AlexComponents:0813-1X1T-57-F_RJ45-Jack</footprint>
+      <datasheet>http://belfuse.com/pdfs/0813-1X1T-57-F.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">507-1421-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="0813-1X1T-57-F" description="RJ45 Magjack with PoE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBC155D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1921-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9DA67</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>49.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">RNCP0805FTD49R9CT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Watts">0.25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9DB89</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9E152</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>49.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">RNCP0805FTD49R9CT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Watts">0.25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9E263</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>49.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">RNCP0805FTD49R9CT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Watts">0.25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9E295</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1921-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9E316</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>1u</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Amps">600m</field>
+        <field name="DigiKey Part Number">445-3163-1-ND</field>
+        <field name="Tolerance">20%</field>
+      </fields>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFA2B80</tstamp>
+    </comp>
+    <comp ref="X4">
+      <value>USART</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFAF1D7</tstamp>
+    </comp>
+    <comp ref="X5">
+      <value>JTAG</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BFAF239</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C016A46</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C016A88</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C016C38</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C016C74</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C016CB6</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C016CFA</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>8M</value>
+      <footprint>Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">535-10630-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C035F06</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1089-1-ND</field>
+        <field name="Tolerance">5%</field>
+        <field name="Voltage">50</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0362F6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1089-1-ND</field>
+        <field name="Tolerance">5%</field>
+        <field name="Voltage">50</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C048D62</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-4.70KHRCT-ND </field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0771E5</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-4.70KHRCT-ND </field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C08F74E</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>4P4C</value>
+      <footprint>AlexComponents:E5544-60LU22-L</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1840-1207-ND</field>
+      </fields>
+      <libsource lib="Connector" part="4P4C" description="RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C099A4F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-4.70KHRCT-ND </field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C09A18C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-4.70KHRCT-ND </field>
+        <field name="Tolerance">1%</field>
+        <field name="Wattage">0.1</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C09A212</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>25AA02E48T-I_OT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/25AA02E48-25AA02E64-2K-SPI-Bus-Serial-EEPROM-Data%20Sheet_DS20002123G.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">25AA02E48T-I/OT</field>
+      </fields>
+      <libsource lib="AlexComponents" part="25AA02E48T-I_OT" description="EEPROM with EUI-48 MAC address"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C195B19</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1005-1-ND</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C195CBC</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500m</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuse_SMD1206_Reflow</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">507-1876-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3F09CB</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4080B6</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4082DE</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C408340</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C4083B0</tstamp>
+    </comp>
+    <comp ref="X2">
+      <value>4P4C</value>
+      <footprint>AlexComponents:E5544-60LU22-L</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1840-1207-ND</field>
+      </fields>
+      <libsource lib="Connector" part="4P4C" description="RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1EF02A</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>49.9</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">RNCP0805FTD49R9CT-ND</field>
+        <field name="Tolerance">1%</field>
+        <field name="Watts">0.25</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BF9E233</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SMAJ58A</value>
+      <footprint>Diodes_SMD:D_SMA</footprint>
+      <datasheet>http://www.vishay.com/docs/88390/smaj50a.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">SMAJ58A-E3/61GICT-ND</field>
+      </fields>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>57D62558</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <datasheet>http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-6840-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>57D62575</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MDB6S</value>
+      <footprint>AlexComponents:Micro-DIP-4</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/MD/MDB10S.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">MDB6SFSCT-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="MDB6S" description="Single-Phase Bridge Rectifiers"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>57DD2149</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>MDB6S</value>
+      <footprint>AlexComponents:Micro-DIP-4</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/MD/MDB10S.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">MDB6SFSCT-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="MDB6S" description="Single-Phase Bridge Rectifiers"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>57DD3729</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>NCP1090</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/NCP1090-D.PDF</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">NCP1090DGOS-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="NCP1090" description="IEEE 802.3af PoE-PD Interface Controller"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59E6F539</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>178k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DigiKey Part Number">311-178KHRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59E6FE35</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>4420</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DigiKey Part Number">311-4.42KHRCT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59E6FEDA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>24.9k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="DigiKey Part Number">311-24.9KHRCT-ND </field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59E6FD02</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22u</value>
+      <footprint>Capacitors_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="DigiKey Part Number">493-12798-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59E7BB76</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>PG02S4803A</value>
+      <footprint>AlexComponents:PG02S</footprint>
+      <datasheet>http://www.deltaww.com/filecenter/products/download/01/0102/datasheet/DS_PG02S.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">941-1185-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="PG02S4805A" description="DC/DC Converter PoE to 5V"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59E7C1EF</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="DigiKey Part Number">1276-6456-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/PoE PD Interface/" tstamps="/5BF9F5EE/"/>
+      <tstamp>59EB18F9</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>12.4k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-12.4KHRCT-ND </field>
+        <field name="Tolerance">±1%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B95CB0E</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>4.7u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1907-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B95EFD1</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>25MHz</value>
+      <footprint>Crystals:Crystal_SMD_5032-2pin_5.0x3.2mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">CTX1434CT-ND</field>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B95F795</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">311-1.0MGRCT-ND</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B95F83B</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1921-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B974852</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B977420</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B978BCC</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B978BFC</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B978C2A</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1012-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B978C5A</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1089-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B9B507B</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>18p</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1276-1089-1-ND</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5B9B521C</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>W5500</value>
+      <footprint>Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</footprint>
+      <datasheet>http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v108e.pdf</datasheet>
+      <fields>
+        <field name="DigiKey Part Number">1278-1021-ND</field>
+      </fields>
+      <libsource lib="AlexComponents" part="W5500" description="10/100 Ethernet Controller with TCP/IP Stack"/>
+      <sheetpath names="/W5500 Ethernet Interface/" tstamps="/5BFA08A0/"/>
+      <tstamp>5C1FAAE5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AlexComponents" part="0813-1X1T-57-F">
+      <description>RJ45 Magjack with PoE</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">0813-1X1T-57-F</field>
+        <field name="Footprint">AlexComponents:0813-1X1T-57-F_RJ45-Jack</field>
+        <field name="Datasheet">http://belfuse.com/pdfs/0813-1X1T-57-F.pdf</field>
+        <field name="DigiKey Part Number">507-1421-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TD+" type="input"/>
+        <pin num="2" name="RD+" type="input"/>
+        <pin num="5" name="VC12" type="power_out"/>
+        <pin num="6" name="VC45" type="power_out"/>
+        <pin num="7" name="CT" type="input"/>
+        <pin num="8" name="TD-" type="input"/>
+        <pin num="9" name="RD-" type="input"/>
+        <pin num="10" name="VC36" type="power_out"/>
+        <pin num="11" name="VC78" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="AlexComponents" part="25AA02E48T-I_OT">
+      <description>EEPROM with EUI-48 MAC address</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">25AA02E48T-I_OT</field>
+        <field name="Footprint">TO_SOT_Packages_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/25AA02E48-25AA02E64-2K-SPI-Bus-Serial-EEPROM-Data%20Sheet_DS20002123G.pdf</field>
+        <field name="DigiKey Part Number">25AA02E48T-I/OT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCK" type="input"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SI" type="input"/>
+        <pin num="4" name="SO" type="output"/>
+        <pin num="5" name="CS" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AlexComponents" part="MDB6S">
+      <description>Single-Phase Bridge Rectifiers</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MDB6S</field>
+        <field name="Footprint">AlexComponents:Micro-DIP-4</field>
+        <field name="Datasheet">https://www.fairchildsemi.com/datasheets/MD/MDB10S.pdf</field>
+        <field name="DigiKey Part Number">MDB6SFSCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="-" type="power_out"/>
+        <pin num="3" name="AC1" type="power_in"/>
+        <pin num="4" name="AC2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AlexComponents" part="NCP1090">
+      <description>IEEE 802.3af PoE-PD Interface Controller</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1090</field>
+        <field name="Footprint">Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/NCP1090-D.PDF</field>
+        <field name="DigiKey Part Number">NCP1090DGOS-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INRUSH" type="output"/>
+        <pin num="2" name="CLASS" type="output"/>
+        <pin num="3" name="DET" type="output"/>
+        <pin num="4" name="VPORTN" type="power_in"/>
+        <pin num="5" name="RTN" type="power_out"/>
+        <pin num="6" name="PGOOD" type="output"/>
+        <pin num="7" name="NC" type="NotConnected"/>
+        <pin num="8" name="VPORTP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AlexComponents" part="PG02S4805A">
+      <description>DC/DC Converter PoE to 5V</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PG02S4805A</field>
+        <field name="Footprint">AlexComponents:PG02S</field>
+        <field name="Datasheet">http://www.deltaww.com/filecenter/products/download/01/0102/datasheet/DS_PG02S.pdf</field>
+        <field name="DigiKey Part Number">941-1186-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-VIN" type="power_in"/>
+        <pin num="2" name="+VIN" type="power_in"/>
+        <pin num="3" name="Remote" type="power_out"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="+VO" type="power_out"/>
+        <pin num="7" name="-VO" type="power_out"/>
+        <pin num="8" name="NC" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="AlexComponents" part="W5500">
+      <description>10/100 Ethernet Controller with TCP/IP Stack</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W5500</field>
+        <field name="Footprint">Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm</field>
+        <field name="Datasheet">http://wizwiki.net/wiki/lib/exe/fetch.php?media=products:w5500:w5500_ds_v108e.pdf</field>
+        <field name="DigiKey Part Number">1278-1021-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TXON" type="output"/>
+        <pin num="2" name="TXOP" type="output"/>
+        <pin num="3" name="AGND" type="power_in"/>
+        <pin num="4" name="AVDD" type="power_in"/>
+        <pin num="5" name="RXIN" type="input"/>
+        <pin num="6" name="RXIP" type="input"/>
+        <pin num="7" name="DNC" type="NotConnected"/>
+        <pin num="8" name="AVDD" type="power_in"/>
+        <pin num="9" name="AGND" type="power_in"/>
+        <pin num="10" name="EXRES" type="output"/>
+        <pin num="11" name="AVDD" type="power_in"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="NC" type="NotConnected"/>
+        <pin num="14" name="AGND" type="power_in"/>
+        <pin num="15" name="AVDD" type="power_in"/>
+        <pin num="16" name="AGND" type="power_in"/>
+        <pin num="17" name="AVDD" type="power_in"/>
+        <pin num="18" name="VBG" type="power_out"/>
+        <pin num="19" name="AGND" type="power_in"/>
+        <pin num="20" name="TOCAP" type="output"/>
+        <pin num="21" name="AVDD" type="power_in"/>
+        <pin num="22" name="1V2O" type="power_out"/>
+        <pin num="23" name="RSVD" type="NotConnected"/>
+        <pin num="24" name="SPDLED" type="output"/>
+        <pin num="25" name="LINKLED" type="output"/>
+        <pin num="26" name="DUPLED" type="output"/>
+        <pin num="27" name="ACTLED" type="output"/>
+        <pin num="28" name="VDD" type="power_in"/>
+        <pin num="29" name="GND" type="power_in"/>
+        <pin num="30" name="XI" type="input"/>
+        <pin num="31" name="XO" type="input"/>
+        <pin num="32" name="CS" type="input"/>
+        <pin num="33" name="SCLK" type="input"/>
+        <pin num="34" name="MISO" type="output"/>
+        <pin num="35" name="MOSI" type="input"/>
+        <pin num="36" name="INT" type="output"/>
+        <pin num="37" name="RESET" type="input"/>
+        <pin num="38" name="RSVD" type="NotConnected"/>
+        <pin num="39" name="RSVD" type="NotConnected"/>
+        <pin num="40" name="RSVD" type="NotConnected"/>
+        <pin num="41" name="RSVD" type="NotConnected"/>
+        <pin num="42" name="RSVD" type="NotConnected"/>
+        <pin num="43" name="PMODE2" type="input"/>
+        <pin num="44" name="PMODE1" type="input"/>
+        <pin num="45" name="PMODE0" type="input"/>
+        <pin num="46" name="NC" type="NotConnected"/>
+        <pin num="47" name="NC" type="NotConnected"/>
+        <pin num="48" name="AGND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="4P4C">
+      <aliases>
+        <alias>RJ9</alias>
+        <alias>RJ10</alias>
+        <alias>RJ22</alias>
+      </aliases>
+      <description>RJ connector, 4P4C (4 positions 4 connected), RJ9/RJ10/RJ22</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>4P4C*</fp>
+        <fp>RJ9*</fp>
+        <fp>RJ10*</fp>
+        <fp>RJ22*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">4P4C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_ST_STM32F0" part="STM32F070CBTx">
+      <description>ARM Cortex-M0 MCU, 128KB flash, 16KB RAM, 48MHz, 2.4-3.6V, 37 GPIO, LQFP-48</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf</docs>
+      <footprints>
+        <fp>LQFP*7x7mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F070CBTx</field>
+        <field name="Footprint">Package_QFP:LQFP-48_7x7mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PF0" type="input"/>
+        <pin num="6" name="PF1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="VSSA" type="power_in"/>
+        <pin num="9" name="VDDA" type="power_in"/>
+        <pin num="10" name="PA0" type="BiDi"/>
+        <pin num="11" name="PA1" type="BiDi"/>
+        <pin num="12" name="PA2" type="BiDi"/>
+        <pin num="13" name="PA3" type="BiDi"/>
+        <pin num="14" name="PA4" type="BiDi"/>
+        <pin num="15" name="PA5" type="BiDi"/>
+        <pin num="16" name="PA6" type="BiDi"/>
+        <pin num="17" name="PA7" type="BiDi"/>
+        <pin num="18" name="PB0" type="BiDi"/>
+        <pin num="19" name="PB1" type="BiDi"/>
+        <pin num="20" name="PB2" type="BiDi"/>
+        <pin num="21" name="PB10" type="BiDi"/>
+        <pin num="22" name="PB11" type="BiDi"/>
+        <pin num="23" name="VSS" type="power_in"/>
+        <pin num="24" name="VDD" type="power_in"/>
+        <pin num="25" name="PB12" type="BiDi"/>
+        <pin num="26" name="PB13" type="BiDi"/>
+        <pin num="27" name="PB14" type="BiDi"/>
+        <pin num="28" name="PB15" type="BiDi"/>
+        <pin num="29" name="PA8" type="BiDi"/>
+        <pin num="30" name="PA9" type="BiDi"/>
+        <pin num="31" name="PA10" type="BiDi"/>
+        <pin num="32" name="PA11" type="BiDi"/>
+        <pin num="33" name="PA12" type="BiDi"/>
+        <pin num="34" name="PA13" type="BiDi"/>
+        <pin num="35" name="VSS" type="power_in"/>
+        <pin num="36" name="VDD" type="power_in"/>
+        <pin num="37" name="PA14" type="BiDi"/>
+        <pin num="38" name="PA15" type="BiDi"/>
+        <pin num="39" name="PB3" type="BiDi"/>
+        <pin num="40" name="PB4" type="BiDi"/>
+        <pin num="41" name="PB5" type="BiDi"/>
+        <pin num="42" name="PB6" type="BiDi"/>
+        <pin num="43" name="PB7" type="BiDi"/>
+        <pin num="44" name="BOOT0" type="input"/>
+        <pin num="45" name="PB8" type="BiDi"/>
+        <pin num="46" name="PB9" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AlexComponents">
+      <uri>C:/Users/eeale/Dropbox/Software/KiCAD/AlexComponents.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_ST_STM32F0">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_ST_STM32F0.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C6-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="2" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="44"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="X2" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="X4" pin="6"/>
+      <node ref="C15" pin="2"/>
+      <node ref="X5" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="47"/>
+      <node ref="U2" pin="35"/>
+      <node ref="U2" pin="23"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U5" pin="48"/>
+      <node ref="U5" pin="29"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="14"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U5" pin="19"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="4" name="+3V3">
+      <node ref="C10" pin="1"/>
+      <node ref="U5" pin="28"/>
+      <node ref="X2" pin="4"/>
+      <node ref="X5" pin="1"/>
+      <node ref="U5" pin="17"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U5" pin="21"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U2" pin="24"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="48"/>
+      <node ref="R2" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="36"/>
+      <node ref="R4" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="F1" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U5" pin="43"/>
+      <node ref="U5" pin="44"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U5" pin="45"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U5" pin="15"/>
+      <node ref="C16" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="5" name="Net-(C7-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="6" name="I2C1_SCL">
+      <node ref="X1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="X2" pin="1"/>
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="7" name="I2C1_SDA">
+      <node ref="U2" pin="43"/>
+      <node ref="X2" pin="3"/>
+      <node ref="R1" pin="2"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(X4-Pad1)">
+      <node ref="X4" pin="1"/>
+    </net>
+    <net code="9" name="Net-(X4-Pad4)">
+      <node ref="X4" pin="4"/>
+    </net>
+    <net code="10" name="Net-(X4-Pad5)">
+      <node ref="X4" pin="5"/>
+    </net>
+    <net code="11" name="USART1_RX">
+      <node ref="X4" pin="3"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="13" name="/PoE PD Interface/3.3V">
+      <node ref="F1" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="16" name="WIZ_RST">
+      <node ref="U2" pin="13"/>
+      <node ref="U5" pin="37"/>
+    </net>
+    <net code="17" name="WIZ_INT">
+      <node ref="U5" pin="36"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="19" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="20" name="SPI2_NSS">
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="21" name="SPI2_MISO">
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="22" name="SPI2_MOSI">
+      <node ref="U2" pin="28"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="23" name="SPI2_SCK">
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="24" name="Net-(C5-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="X3" pin="7"/>
+    </net>
+    <net code="25" name="/W5500 Ethernet Interface/TXOP">
+      <node ref="R3" pin="2"/>
+      <node ref="X3" pin="1"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="26" name="/CRXIN">
+      <node ref="R6" pin="2"/>
+      <node ref="X3" pin="9"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="27" name="/W5500 Ethernet Interface/TXON">
+      <node ref="R4" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="X3" pin="8"/>
+    </net>
+    <net code="28" name="/W5500 Ethernet Interface/RXIN">
+      <node ref="U5" pin="5"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="29" name="SPI1_NSS">
+      <node ref="U2" pin="14"/>
+      <node ref="U5" pin="32"/>
+    </net>
+    <net code="30" name="Net-(C2-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="31" name="/CRXIP">
+      <node ref="C3" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="X3" pin="2"/>
+    </net>
+    <net code="32" name="/W5500 Ethernet Interface/RXIP">
+      <node ref="U5" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U2-Pad39)">
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="34" name="Net-(U2-Pad20)">
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="35" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="36" name="Net-(U2-Pad19)">
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="37" name="Net-(U2-Pad30)">
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="38" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="39" name="SP1_MOSI">
+      <node ref="U5" pin="35"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="40" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="41" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="42" name="Net-(U2-Pad33)">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="43" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="44" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="45" name="USART1_TX">
+      <node ref="X4" pin="2"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="46" name="/PoE PD Interface/VC45">
+      <node ref="D2" pin="3"/>
+      <node ref="X3" pin="6"/>
+    </net>
+    <net code="47" name="/PoE PD Interface/VC12">
+      <node ref="D1" pin="4"/>
+      <node ref="X3" pin="5"/>
+    </net>
+    <net code="48" name="/PoE PD Interface/VC78">
+      <node ref="X3" pin="11"/>
+      <node ref="D2" pin="4"/>
+    </net>
+    <net code="49" name="/PoE PD Interface/VC36">
+      <node ref="X3" pin="10"/>
+      <node ref="D1" pin="3"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="51" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="52" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="53" name="Net-(U2-Pad46)">
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="54" name="Net-(U2-Pad45)">
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="55" name="Net-(U2-Pad41)">
+      <node ref="U2" pin="41"/>
+    </net>
+    <net code="56" name="Net-(X5-Pad6)">
+      <node ref="X5" pin="6"/>
+    </net>
+    <net code="57" name="NRST">
+      <node ref="R8" pin="2"/>
+      <node ref="X5" pin="5"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="58" name="SYS_SWDIO">
+      <node ref="U2" pin="34"/>
+      <node ref="X5" pin="4"/>
+    </net>
+    <net code="59" name="SYS_SWCLK">
+      <node ref="X5" pin="2"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="60" name="SPI1_MISO">
+      <node ref="U2" pin="16"/>
+      <node ref="U5" pin="34"/>
+    </net>
+    <net code="61" name="SPI1_SCK">
+      <node ref="U5" pin="33"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="62" name="Net-(C14-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="C14" pin="2"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="64" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R11-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="66" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad6)">
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="68" name="/PoE PD Interface/N">
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="69" name="/PoE PD Interface/P">
+      <node ref="R9" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="70" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="71" name="Net-(U4-Pad5)">
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="72" name="Net-(U4-Pad8)">
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="73" name="Net-(U5-Pad27)">
+      <node ref="U5" pin="27"/>
+    </net>
+    <net code="74" name="Net-(U5-Pad25)">
+      <node ref="U5" pin="25"/>
+    </net>
+    <net code="75" name="Net-(U5-Pad24)">
+      <node ref="U5" pin="24"/>
+    </net>
+    <net code="76" name="Net-(U5-Pad26)">
+      <node ref="U5" pin="26"/>
+    </net>
+    <net code="77" name="Net-(U5-Pad41)">
+      <node ref="U5" pin="41"/>
+    </net>
+    <net code="78" name="/W5500 Ethernet Interface/XI">
+      <node ref="C24" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U5" pin="30"/>
+      <node ref="Y2" pin="1"/>
+    </net>
+    <net code="79" name="/W5500 Ethernet Interface/XO">
+      <node ref="C23" pin="1"/>
+      <node ref="U5" pin="31"/>
+      <node ref="R13" pin="2"/>
+      <node ref="Y2" pin="2"/>
+    </net>
+    <net code="80" name="Net-(U5-Pad38)">
+      <node ref="U5" pin="38"/>
+    </net>
+    <net code="81" name="Net-(U5-Pad39)">
+      <node ref="U5" pin="39"/>
+    </net>
+    <net code="82" name="Net-(U5-Pad40)">
+      <node ref="U5" pin="40"/>
+    </net>
+    <net code="83" name="Net-(U5-Pad42)">
+      <node ref="U5" pin="42"/>
+    </net>
+    <net code="84" name="Net-(U5-Pad46)">
+      <node ref="U5" pin="46"/>
+    </net>
+    <net code="85" name="Net-(U5-Pad47)">
+      <node ref="U5" pin="47"/>
+    </net>
+    <net code="86" name="Net-(U5-Pad7)">
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="87" name="/W5500 Ethernet Interface/XRES">
+      <node ref="R12" pin="1"/>
+      <node ref="U5" pin="10"/>
+    </net>
+    <net code="88" name="Net-(U5-Pad12)">
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="89" name="Net-(U5-Pad13)">
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="90" name="Net-(U5-Pad18)">
+      <node ref="U5" pin="18"/>
+    </net>
+    <net code="91" name="/W5500 Ethernet Interface/XCAP">
+      <node ref="C22" pin="1"/>
+      <node ref="U5" pin="20"/>
+    </net>
+    <net code="92" name="/W5500 Ethernet Interface/1V2O">
+      <node ref="U5" pin="22"/>
+      <node ref="C21" pin="1"/>
+    </net>
+    <net code="93" name="Net-(U5-Pad23)">
+      <node ref="U5" pin="23"/>
+    </net>
+  </nets>
+</export>

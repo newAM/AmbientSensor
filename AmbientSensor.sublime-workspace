@@ -1,0 +1,1853 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addHandler\tfunction"
+			],
+			[
+				"set",
+				"setFormatter\tfunction"
+			],
+			[
+				"read",
+				"readlines\tfunction"
+			],
+			[
+				"par",
+				"parse_args\tfunction"
+			],
+			[
+				"Arg",
+				"ArgumentParser\tclass"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"hum",
+				"humidity"
+			],
+			[
+				"all_s",
+				"all_switches"
+			],
+			[
+				"mini_",
+				"mini_2"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"h",
+				"home"
+			],
+			[
+				"cyl",
+				"cylinder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "AmbientSensor_Code/Src/main.c",
+			"settings":
+			{
+				"buffer_size": 17058,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/eeprom/eeprom.c",
+			"settings":
+			{
+				"buffer_size": 3754,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/w5500/w5500.h",
+			"settings":
+			{
+				"buffer_size": 1731,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/w5500/w5500.c",
+			"settings":
+			{
+				"buffer_size": 4576,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/w5500/w5500_ll.h",
+			"settings":
+			{
+				"buffer_size": 2987,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/w5500/w5500_ll.c",
+			"settings":
+			{
+				"buffer_size": 6119,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/hal_callback/hal_callback.c",
+			"settings":
+			{
+				"buffer_size": 2844,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c",
+			"settings":
+			{
+				"buffer_size": 88662,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/hal_callback/hal_callback.h",
+			"settings":
+			{
+				"buffer_size": 1466,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/eeale/Dropbox/Projects/Projects_FreeRTOS/FreeRTOS/Src/syscalls.c",
+			"settings":
+			{
+				"buffer_size": 996,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/user/logging/logging.h",
+			"settings":
+			{
+				"buffer_size": 5560,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/Src/freertos.c",
+			"settings":
+			{
+				"buffer_size": 5718,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h",
+			"settings":
+			{
+				"buffer_size": 29666,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublinte",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sublim",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"packains",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Inc",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/hal_callback",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500"
+	],
+	"file_history":
+	[
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_FreeRTOS/FreeRTOS/Src/freertos.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/CMSIS/RTOS/Template/cmsis_os.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_spi.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500_ll.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/hal_callback/hal_callback.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/constants.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/dhcp.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Inc/bme280.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/logging/logging.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500_ll.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/eeprom/eeprom.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/eeprom/eeprom.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500_common_regs.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/dhcp.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/DHCP/dhcp.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500_common_regs.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Makefile",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_gpio.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/logging/logging.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Inc/opt3002.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500_socket_regs.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/w5500/w5500_socket_regs.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Src/bme280.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/stdrc.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Src/mqtt.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/logging/syscalls.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/user/logging/syscalls.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_FreeRTOS/FreeRTOS/Src/syscalls.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Src/eeprom.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Src/wiznet.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/wizchip_conf.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Src/spi.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Inc/main.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/README.md",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/DHCP/dhcp.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Inc/shared.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Inc/wiznet.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/W5500/w5500.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/sequence.uml",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor.sublime-project",
+		"/C/Users/eeale/Dropbox/Gaming/OSRS/cml_update/main.py",
+		"/C/Users/eeale/Dropbox/Gaming/OSRS/_clanlist.txt",
+		"/C/Users/eeale/Dropbox/Gaming/OSRS/cml_update/log_setup.py",
+		"/C/Users/eeale/Dropbox/Gaming/OSRS/cml_update/cml.py",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/W5100/w5100.h",
+		"/C/Users/eeale/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter-gcc/miscellaneous/demo.cpp",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/devices/Src/opt3002.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Src/mqtt.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/W5500/w5500.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/W5100/w5100.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/socket.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/MQTT/MQTTClient.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/MQTT/MQTTPacket/src/MQTTSerializePublish.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/README.md",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/README.md",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Makefile",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Src/main.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/MQTT/mqtt_interface.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/MQTT/mqtt_interface.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/internet/MQTT/MQTTClient.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/internet/mqtt/mqttpacket/src/MQTTConnect.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Src/mqtt.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Inc/main.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_PCB/Breakout_OPT3002/README.md",
+		"/C/Users/eeale/Dropbox/Projects/Projects_PCB/DevBoard_NCP1090/README.md",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Src/shared.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Inc/mqtt.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Src/io.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Internet/MQTT/mqtt_interface.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Internet/MQTT/MQTTClient.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Internet/MQTT/mqtt_interface.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Ethernet/socket.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_TestCode/AmbientSensor_TestCode_STM32F070RBT6_Full/Internet/DHCP/dhcp.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/ioLibrary_Driver/Ethernet/wizchip_conf.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/periph/Src/wiznet.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/Inc/mqtt.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/periph/Src/opt3002.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/periph/Inc/bme280.h",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/periph/Src/bme280.c",
+		"/C/Users/eeale/Dropbox/Projects/Projects_Automation/Automation_AmbientSensor/AmbientSensor_Code/periph/Inc/opt3002.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Src/ntp.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/bme280.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/bme280.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/MQTT/MQTTClient.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Src/mqtt.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/MQTT/MQTTClient.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Inc/main.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/DHCP/dhcp.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/myepd.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/epd/epd2in9.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/epd/epd2in9.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/wiznet.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Src/main.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Makefile",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Src/shared.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Inc/shared.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Inc/mqtt.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/MQTT/mqtt_interface.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/myepd.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/wiznet.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/MQTT/mqtt_interface.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/DHCP/dhcp.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Inc/ntp.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Inc/io.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/SNTP/sntp.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/gfxfont.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/gfxfont.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/epd/epdif.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/epd/epdif.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/epd/epdpaint.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/epd/epdpaint.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Ethernet/W5500/w5500.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Ethernet/socket.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/eeprom.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/epd/imagedata.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Inc/epd/imagedata.h",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/periph/Src/eeprom.c",
+		"/C/Users/eeale/Dropbox/Projects/Automation/AmbientSensor/AmbientSensor_Code/Internet/SNTP/sntp.h"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\Users\\eeale\\Dropbox\\Projects\\Projects_Automation\\Automation_AmbientSensor\\AmbientSensor_Code\\",
+			"C:\\Users\\eeale\\Dropbox\\Projects\\Automation\\AmbientSensor\\AmbientSensor_Code\\",
+			"C:\\Users\\eeale\\Dropbox\\Projects\\Automation\\AmbientSensor\\AmbientSensor_Code\\periph\\Inc\\epd,C:\\Users\\eeale\\Dropbox\\Projects\\Automation\\AmbientSensor\\AmbientSensor_Code\\",
+			"C:\\Users\\eeale\\Dropbox\\Projects\\Automation\\AmbientSensor\\AmbientSensor_Code\\periph\\Inc\\epd,C:\\Users\\eeale\\Dropbox\\Projects\\Automation\\AmbientSensor\\AmbientSensor_Code\\periph\\Src\\epd",
+			"<open folders>",
+			"C:\\Users\\eeale\\Dropbox\\Projects\\Automation\\AmbientSensor\\AmbientSensor_Code\\AmbientSensor\\fonts\\gfx",
+			"<open files>",
+			"<open folders>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"__VA",
+			"hspi2Status",
+			"HAL_SPI_TxCpltCallback",
+			"callback",
+			"Callback",
+			"discover",
+			"extern",
+			"HAL_SPI_TRANSMIT",
+			"puts",
+			"interrupt",
+			"NSS",
+			"Hard",
+			"HAL_SPI_Transmit_",
+			"SPI_Init",
+			"WIZ_CS_",
+			"'",
+			"sample",
+			"millitimer",
+			"Timer",
+			"command_timeout_ms",
+			"sendpacket",
+			"_write_byte",
+			"sendpack",
+			"currentTick",
+			"mqtt_g",
+			"buf_g",
+			"buf",
+			"dhcpBuf",
+			"globalBuf_g",
+			"swap_uint16",
+			"mqtt_g",
+			"bme\\.",
+			"bmeDev",
+			"rc",
+			"currentTick",
+			"dig",
+			"DHCP_stop",
+			"Wiz_PrintDhcpInfo",
+			"SOCK_DHCP",
+			"dhcp_run",
+			"DHCP_allocated_ip",
+			"getSn_RX_RSR",
+			"parsedh",
+			"check_DHCP_time",
+			"DHCP_time_handler",
+			"dhcp_time_h",
+			"send_DHCP_dis",
+			"send_DHCP_",
+			"printf",
+			"hardre",
+			"Wiz_PrintDhcpInfo",
+			"Wiz_PrintPhyConf",
+			"_g",
+			"WizIpConflict",
+			"WizIpUpdate",
+			"WizIpAssign",
+			"WizSpiBurstWr",
+			"WizSpiBurstRd",
+			"Wiz_SpiBurstRd",
+			"WizSpiWr",
+			"WizSpiRd",
+			"WizCsDesel",
+			"WizCsSel",
+			"WizCritEx",
+			"WizCritEn",
+			"todo",
+			"HAL_I2C_DeInit",
+			"reset",
+			"compParams.compStruct.dig_",
+			"1",
+			"readenv",
+			"EPD_STR_BUF_SIZE",
+			"memaddr",
+			"I2C_MEMADD_SIZE_16BIT",
+			"mqtt_g",
+			"mqtt",
+			"STATUS_BAD",
+			"epdStatus_g",
+			"prevHumidity",
+			"prevPressure",
+			"prevTemperature",
+			" printf",
+			"pain",
+			"EPD_ClearFrameMemory",
+			"EPD_SetMemoryPointer",
+			"setmemorypoin",
+			"EPD_SetFrameMemory",
+			"EPD_WaitUntilIdle",
+			"tick",
+			"EPD_WaitUntilIdle",
+			"WaitUntil",
+			"busy",
+			"getimage",
+			"EPD_WaitUntilIdle",
+			" int ",
+			"unsigned int",
+			"int",
+			"unsigned int",
+			"unsigned",
+			"long",
+			"int",
+			"unsigned char",
+			"validMac",
+			"MessageHa",
+			"rsr",
+			"socket",
+			"mqttMsgBuf_g",
+			"mqtt",
+			"buf",
+			"(char *)globalBuf_g",
+			"sntp_init",
+			"wizBuf_g",
+			"frame_buffer",
+			"wizBuf_g",
+			"iwdg",
+			"WIZCHIP_READ",
+			"printf",
+			"TimerInit",
+			"HAL_GetTick()",
+			"SysTick_Handler",
+			"systick",
+			"milli",
+			"MilliTimer_Handler",
+			"sendpa",
+			"socket not established",
+			"wizBuf_g",
+			"stack",
+			"Paint_DrawPixel"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"HAL_GetTick()",
+			"bmeDev.",
+			"bme",
+			"IO_printf",
+			"Wiz_IpConflict",
+			"Wiz_IpUpdate",
+			"Wiz_IpAssign",
+			"Wiz_WizSpiBurstWr",
+			"Wiz_WizSpiBurstRd",
+			"Wiz_SpiWr",
+			"Wiz_SpiRd",
+			"Wiz_CsDesel",
+			"Wiz_CsSel",
+			"Wiz_CritEx",
+			"Wiz_CritEn",
+			"bmeDev->cal.dig.",
+			"STATUS_ERR",
+			"mqttPrevHumidity",
+			"mqttPrevPressure",
+			"mqttPrevTemperature",
+			" IO_printf",
+			" int32_t ",
+			"int32_t",
+			"uint32_t",
+			"int32_t",
+			"uint32_t",
+			"int16_t",
+			"uint8_t",
+			"epdStrBuf",
+			"globalBuf_g",
+			"netInfo_g",
+			"W5500",
+			"bmeDev->cal.",
+			"IO_",
+			"LVL",
+			"BME280_",
+			"//trace",
+			"",
+			"Send(DAT, 0x",
+			");\\n",
+			"\\n",
+			"",
+			";\\n",
+			"= 0x",
+			"static const uint8_t ",
+			");\\nSend(DAT, ",
+			"",
+			"\\n",
+			"I2Cx",
+			"uint8_t REG_",
+			"",
+			"wget http",
+			"wget ;",
+			"PARK",
+			"OFF",
+			"ON",
+			"a name",
+			"_delay_us",
+			"\"",
+			"printf",
+			"%d\\n",
+			"x",
+			"readvalyeah",
+			" %d\", x)",
+			" STR(",
+			"testing"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "AmbientSensor_Code/Src/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17058,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8413,
+								8413
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.28.region_keys":
+							[
+							],
+							"SL.32.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.gcc.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.gcc.Highlights.|ec389bdec6d8f4a834e8a13940f9e5ed4676c239686ae98bab65b5f9ccff0bda|region.redish markup.error.sublime_linter|32"
+							],
+							"SL.385.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549135810.16,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3229.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "AmbientSensor_Code/user/eeprom/eeprom.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3754,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3510,
+								3510
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549176149.72,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "AmbientSensor_Code/user/w5500/w5500.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1664,
+								1664
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549173336.09,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "AmbientSensor_Code/user/w5500/w5500.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4446,
+								4446
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549175752.33,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 878.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "AmbientSensor_Code/user/w5500/w5500_ll.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2823,
+								2823
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549172751.86,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "AmbientSensor_Code/user/w5500/w5500_ll.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1478,
+								1478
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"SL.345.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549174190.81,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "AmbientSensor_Code/user/hal_callback/hal_callback.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2844,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2305,
+								2305
+							],
+							[
+								2508,
+								2508
+							],
+							[
+								2717,
+								2717
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"SL.335.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 318.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88662,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65185,
+								64354
+							]
+						],
+						"settings":
+						{
+							"SL.21.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549213582.45,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 30569.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "AmbientSensor_Code/user/hal_callback/hal_callback.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1423,
+								1436
+							]
+						],
+						"settings":
+						{
+							"SL.22.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549173392.41,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 9,
+					"file": "/C/Users/eeale/Dropbox/Projects/Projects_FreeRTOS/FreeRTOS/Src/syscalls.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 996,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"SL.23.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549172781.7,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "AmbientSensor_Code/user/logging/logging.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5168,
+								5168
+							]
+						],
+						"settings":
+						{
+							"SL.24.region_keys":
+							[
+							],
+							"SL.392.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549175976.04,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "AmbientSensor_Code/user/w5500/w5500.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1731,
+								1711
+							]
+						],
+						"settings":
+						{
+							"SL.25.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549173336.09,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "AmbientSensor_Code/Src/freertos.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5718,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4365,
+								4365
+							]
+						],
+						"settings":
+						{
+							"SL.26.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549176787.31,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "AmbientSensor_Code/user/w5500/w5500_ll.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2987,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2830,
+								2830
+							]
+						],
+						"settings":
+						{
+							"SL.27.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549172751.86,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "AmbientSensor_Code/user/w5500/w5500_ll.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5731,
+								5731
+							]
+						],
+						"settings":
+						{
+							"SL.28.region_keys":
+							[
+							],
+							"SL.345.region_keys":
+							[
+							],
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549174190.81,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"synced": false,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2228.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "AmbientSensor_Code/Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_spi.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27992,
+								27992
+							]
+						],
+						"settings":
+						{
+							"SL.29.region_keys":
+							[
+							],
+							"SL.408.region_keys":
+							[
+							],
+							"incomplete_sync": null,
+							"markdonw_live_preview_last_run": 1549177117.69,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 10958.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 59.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.457142857143,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 114.0
+	},
+	"output.find_results":
+	{
+		"height": 241.0
+	},
+	"output.sftp":
+	{
+		"height": 102.0
+	},
+	"pinned_build_system": "",
+	"project": "AmbientSensor.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"halu",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_usart.h"
+			],
+			[
+				"w5500ll",
+				"user\\w5500\\w5500_ll.h"
+			],
+			[
+				"eep",
+				"user\\eeprom\\eeprom.c"
+			],
+			[
+				"eepr",
+				"user\\eeprom\\eeprom.c"
+			],
+			[
+				"loggi",
+				"user\\logging\\logging.h"
+			],
+			[
+				"haldm",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_dma.c"
+			],
+			[
+				"halspi",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_spi.h"
+			],
+			[
+				"haltspi",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_spi.c"
+			],
+			[
+				"dh",
+				"ioLibrary_Driver\\Internet\\DHCP\\dhcp.c"
+			],
+			[
+				"dhcp",
+				"ioLibrary_Driver\\Internet\\DHCP\\dhcp.c"
+			],
+			[
+				"stm32f0xx.h",
+				"Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"w5500",
+				"user\\w5500\\w5500.c"
+			],
+			[
+				"epprom",
+				"user\\eeprom\\eeprom.c"
+			],
+			[
+				"logg",
+				"user\\logging\\logging.h"
+			],
+			[
+				"eeprom",
+				"user\\eeprom\\eeprom.h"
+			],
+			[
+				"bme280",
+				"devices\\Inc\\bme280.h"
+			],
+			[
+				"opt",
+				"devices\\Inc\\opt3002.h"
+			],
+			[
+				"opt3002",
+				"devices\\Inc\\opt3002.h"
+			],
+			[
+				"sys",
+				"user\\logging\\syscalls.c"
+			],
+			[
+				"loggin",
+				"user\\logging\\logging.c"
+			],
+			[
+				"wiznet",
+				"devices\\Src\\wiznet.c"
+			],
+			[
+				"README",
+				"ioLibrary_Driver\\README.md"
+			],
+			[
+				"makefi",
+				"Makefile"
+			],
+			[
+				"mqttinter",
+				"ioLibrary_Driver\\Internet\\MQTT\\mqtt_interface.h"
+			],
+			[
+				"mqttclient",
+				"ioLibrary_Driver\\Internet\\MQTT\\MQTTClient.c"
+			],
+			[
+				"wiz",
+				"devices\\Inc\\wiznet.h"
+			],
+			[
+				"mqttiner",
+				"ioLibrary_Driver\\Internet\\MQTT\\mqtt_interface.c"
+			],
+			[
+				"bme280c",
+				"devices\\Src\\bme280.c"
+			],
+			[
+				"mqtt.h",
+				"ioLibrary_Driver\\internet\\mqtt\\mqttpacket\\src\\MQTTConnect.h"
+			],
+			[
+				"mqtt",
+				"Src\\mqtt.c"
+			],
+			[
+				"wizne",
+				"devices\\Src\\wiznet.c"
+			],
+			[
+				"shared",
+				"Src\\shared.c"
+			],
+			[
+				"mqttc",
+				"ioLibrary_Driver\\Internet\\MQTT\\MQTTClient.c"
+			],
+			[
+				"ioc",
+				"Src\\io.c"
+			],
+			[
+				"mqttinte",
+				"ioLibrary_Driver\\Internet\\MQTT\\mqtt_interface.c"
+			],
+			[
+				"mqttint",
+				"ioLibrary_Driver\\Internet\\MQTT\\mqtt_interface.h"
+			],
+			[
+				"bme2",
+				"devices\\Inc\\bme280.h"
+			],
+			[
+				"shared.c",
+				"Src\\shared.c"
+			],
+			[
+				"bme280h",
+				"devices\\Inc\\bme280.h"
+			],
+			[
+				"wizn",
+				"devices\\Src\\wiznet.c"
+			],
+			[
+				"hali2c",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_i2c.c"
+			],
+			[
+				"mqtth",
+				"Inc\\mqtt.h"
+			],
+			[
+				"io",
+				"Src\\io.c"
+			],
+			[
+				"makefil",
+				"Makefile"
+			],
+			[
+				"hali2cc",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_i2c.c"
+			],
+			[
+				"main",
+				"Src\\main.c"
+			],
+			[
+				"myepd",
+				"periph\\Inc\\myepd.h"
+			],
+			[
+				"epd2i",
+				"periph\\Inc\\epd\\epd2in9.h"
+			],
+			[
+				"gfx",
+				"periph\\Inc\\gfxfont.h"
+			],
+			[
+				"paint",
+				"periph\\Src\\epd\\epdpaint.c"
+			],
+			[
+				"epdif",
+				"periph\\Inc\\epd\\epdif.h"
+			],
+			[
+				"epdpa",
+				"periph\\Src\\epd\\epdpaint.c"
+			],
+			[
+				"epd2in",
+				"periph\\Src\\epd\\epd2in9.c"
+			],
+			[
+				"gfxfont",
+				"periph\\Src\\gfxfont.c"
+			],
+			[
+				"sntph",
+				"Internet\\SNTP\\sntp.h"
+			],
+			[
+				"epd",
+				"periph\\Inc\\epd\\epd2in9.h"
+			],
+			[
+				"ntp",
+				"Inc\\ntp.h"
+			],
+			[
+				"ntpc",
+				"Src\\ntp.c"
+			],
+			[
+				"sntp",
+				"Internet\\SNTP\\sntp.c"
+			],
+			[
+				"ntp.c",
+				"Src\\ntp.c"
+			],
+			[
+				"ntp.",
+				"Inc\\ntp.h"
+			],
+			[
+				"main.",
+				"Inc\\main.h"
+			],
+			[
+				"haliwdg",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_iwdg.c"
+			],
+			[
+				"iwdg",
+				"Src\\iwdg.c"
+			],
+			[
+				"haliw",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_iwdg.h"
+			],
+			[
+				"sntp.h",
+				"Internet\\SNTP\\sntp.h"
+			],
+			[
+				"ntph",
+				"Inc\\ntp.h"
+			],
+			[
+				"mqtt_in",
+				"Internet\\MQTT\\mqtt_interface.c"
+			],
+			[
+				"epdpai",
+				"periph\\Inc\\epd\\epdpaint.h"
+			],
+			[
+				"units",
+				"Inc\\units.h"
+			],
+			[
+				"ioh",
+				"Inc\\io.h"
+			],
+			[
+				"gfxfo",
+				"periph\\Inc\\gfxfont.h"
+			],
+			[
+				"sntpc",
+				"Internet\\SNTP\\sntp.c"
+			],
+			[
+				"dns",
+				"Internet\\DNS\\dns.c"
+			],
+			[
+				"makef",
+				"Makefile"
+			],
+			[
+				"dnsh",
+				"Internet\\DNS\\dns.h"
+			],
+			[
+				"dnc",
+				"Internet\\DNS\\dns.c"
+			],
+			[
+				"wizneth",
+				"periph\\Inc\\wiznet.h"
+			],
+			[
+				"paintc",
+				"periph\\Src\\epd\\epdpaint.c"
+			],
+			[
+				"bme",
+				"periph\\Inc\\bme280.h"
+			],
+			[
+				"spi.h",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_spi.h"
+			],
+			[
+				"280",
+				"periph\\Src\\bme280.c"
+			],
+			[
+				"gioc",
+				"Src\\gpio.c"
+			],
+			[
+				"mqttform",
+				"Internet\\MQTT\\MQTTPacket\\src\\MQTTFormat.c"
+			],
+			[
+				"mainc",
+				"Src\\main.c"
+			],
+			[
+				".ld",
+				"STM32F030R8Tx_FLASH.ld"
+			],
+			[
+				"startupstm32f030x8",
+				"startup_stm32f030x8.s"
+			],
+			[
+				"io.c",
+				"Src\\io.c"
+			],
+			[
+				"readme",
+				"README.md"
+			],
+			[
+				"epdpaint",
+				"periph\\Inc\\epd\\epdpaint.h"
+			],
+			[
+				"epd2",
+				"periph\\Src\\epd\\epd2in9.c"
+			],
+			[
+				"bme28",
+				"periph\\Inc\\bme280.h"
+			],
+			[
+				"io.h",
+				"Inc\\io.h"
+			],
+			[
+				"w55",
+				"Ethernet\\W5500\\w5500.c"
+			],
+			[
+				"dhcp.c",
+				"Internet\\DHCP\\dhcp.c"
+			],
+			[
+				"gdb",
+				".gdbinit"
+			],
+			[
+				"gdbi",
+				".gdbinit"
+			],
+			[
+				"mqttcli",
+				"Internet\\MQTT\\MQTTClient.c"
+			],
+			[
+				"halgpioh",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_gpio.h"
+			],
+			[
+				"halgpio",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_gpio.c"
+			],
+			[
+				"w550",
+				"Ethernet\\W5500\\w5500.c"
+			],
+			[
+				"socket",
+				"Ethernet\\socket.h"
+			],
+			[
+				"wizchip",
+				"Ethernet\\wizchip_conf.c"
+			],
+			[
+				"hali2ch",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_i2c.h"
+			],
+			[
+				"hali",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_i2c.c"
+			],
+			[
+				"hali2",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_i2c.h"
+			],
+			[
+				"hal.c",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal.c"
+			],
+			[
+				"usart",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_usart.c"
+			],
+			[
+				"haltusart",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_usart.h"
+			],
+			[
+				"i2c",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_i2c.h"
+			],
+			[
+				"haluart",
+				"Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_hal_uart.h"
+			],
+			[
+				"uart",
+				"Drivers\\STM32F0xx_HAL_Driver\\Src\\stm32f0xx_hal_uart.c"
+			],
+			[
+				"mainh",
+				"Inc\\main.h"
+			],
+			[
+				"gpioc",
+				"system\\src\\stm32f0-stdperiph\\stm32f0xx_gpio.c"
+			],
+			[
+				"gpio",
+				"system\\src\\stm32f0-stdperiph\\stm32f0xx_gpio.c"
+			],
+			[
+				"gpioh",
+				"system\\include\\stm32f0-stdperiph\\stm32f0xx_gpio.h"
+			],
+			[
+				"_start",
+				"system\\src\\newlib\\_startup.c"
+			],
+			[
+				"timercp",
+				"src\\Timer.cpp"
+			],
+			[
+				"semihost",
+				"system\\include\\arm\\semihosting.h"
+			],
+			[
+				"freeserif9pt",
+				"fonts\\gfx\\FreeSerif9pt7b.h"
+			],
+			[
+				"freemonobo",
+				"fonts\\gfx\\FreeMonoBold9pt7b.h"
+			],
+			[
+				"freemono12",
+				"fonts\\gfx\\FreeMonoBold12pt7b.h"
+			],
+			[
+				"freesans",
+				"fonts\\gfx\\FreeSans12pt7b.h"
+			],
+			[
+				"freesans9",
+				"fonts\\gfx\\FreeSans9pt7b.h"
+			],
+			[
+				"freesansbold30",
+				"fonts\\gfx\\FreeSansBold30pt7b.h"
+			],
+			[
+				"i2cc",
+				"system\\src\\stm32f0-stdperiph\\stm32f0xx_i2c.c"
+			],
+			[
+				"freesansbold9",
+				"fonts\\gfx\\FreeSansBold9pt7b.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"last_automatic_layout":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		]
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

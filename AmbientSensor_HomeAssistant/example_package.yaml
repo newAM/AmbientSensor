@@ -1,0 +1,43 @@
+###############################################################################
+# Front End
+###############################################################################
+group:
+  environment:
+    name: Environment
+    control: hidden
+    entities:
+      - sensor.indoor_temperature
+      - sensor.indoor_luminosity
+      - sensor.indoor_pressure
+      - sensor.indoor_humidity
+
+###############################################################################
+# Sensors
+###############################################################################
+sensor:
+  # indoor temperature
+  - platform: mqtt
+    state_topic: "/home/bedroom/ambient1/temperature"
+    name: "Indoor Temperature"
+    unit_of_measurement: "°C"
+    value_template: "{{ value | round(1) }}"
+
+  # indoor pressure
+  - platform: mqtt
+    state_topic: "/home/bedroom/ambient1/pressure"
+    name: "Indoor Pressure"
+    unit_of_measurement: "Pa"
+    value_template: "{{ value | round(0) }}"
+
+  # indoor humidity
+  - platform: mqtt
+    state_topic: "/home/bedroom/ambient1/humidity"
+    name: "Indoor Humidity"
+    unit_of_measurement: "%RH"
+    value_template: "{{ value | round(1) }}"
+
+  # indoor luminosity
+  - platform: mqtt
+    state_topic: "/home/bedroom/ambient1/luminosity"
+    name: "Indoor luminosity"
+    unit_of_measurement: "lx"
